@@ -73,6 +73,8 @@ body {
   padding: 2px 30px;
   border-radius: 4px;
 
+  font-weight: 700;
+
   background-color: rgb(219, 219, 219);
 }
 
@@ -87,21 +89,22 @@ body {
   background-color: rgb(187, 186, 186);
   border-radius: 50%;
   position: fixed;
-  bottom: 70px;
+  bottom: 50px;
   right: 50px;
   cursor: pointer;
 }
 
-// .arrow-up::before {
-//   content: '\1F815';
-//   position: absolute;
-//   left: 50%;
-//   top: 50%;
-//   transform: translate(-50%, -50%);
+.arrow-up::before {
+  content: '\2B9D';
+  // content: '\1F815';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 
-//   font-size: 42px;
-// }
+  font-size: 40px;
+}
 
-// .arrow-up.is-hidden {
-//   display: none;
-// }
+.arrow-up.is-hidden {
+  display: none;
+}
